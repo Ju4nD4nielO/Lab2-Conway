@@ -1,0 +1,11 @@
+[package]
+name = "Conway"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+opt-level = 3
+debug = false
+
+[dependencies]
+minifb = "0.28.0"
